@@ -43,6 +43,7 @@ public class BeerInventory extends BaseEntity{
         this.quantityOnHand = quantityOnHand;
     }
 
+
     private UUID beerId;
     private String upc;
     private Integer quantityOnHand = 0;
