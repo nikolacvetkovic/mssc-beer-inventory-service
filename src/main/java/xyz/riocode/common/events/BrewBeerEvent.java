@@ -1,0 +1,12 @@
+package xyz.riocode.common.events;
+
+import lombok.NoArgsConstructor;
+import xyz.riocode.common.model.BeerDto;
+
+@NoArgsConstructor
+public class BrewBeerEvent extends BeerEvent{
+
+    public BrewBeerEvent(BeerDto beerDto) {
+        super(beerDto);
+    }
+}
