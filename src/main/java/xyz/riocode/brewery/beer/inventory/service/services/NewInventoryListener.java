@@ -1,13 +1,13 @@
-package xyz.riocode.beer.inventory.service.services;
+package xyz.riocode.brewery.beer.inventory.service.services;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Service;
-import xyz.riocode.beer.inventory.service.config.JmsConfig;
-import xyz.riocode.beer.inventory.service.domain.BeerInventory;
-import xyz.riocode.beer.inventory.service.repositories.BeerInventoryRepository;
-import xyz.riocode.common.events.NewInventoryEvent;
+import xyz.riocode.brewery.beer.inventory.service.config.JmsConfig;
+import xyz.riocode.brewery.beer.inventory.service.domain.BeerInventory;
+import xyz.riocode.brewery.beer.inventory.service.repositories.BeerInventoryRepository;
+import xyz.riocode.brewery.common.events.NewInventoryEvent;
 
 @Slf4j
 @RequiredArgsConstructor

@@ -14,7 +14,7 @@
  *     You should have received a copy of the GNU General Public License
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package xyz.riocode.beer.inventory.service.domain;
+package xyz.riocode.brewery.beer.inventory.service.domain;
 
 import lombok.Builder;
 import lombok.Getter;

@@ -1,8 +1,8 @@
-package xyz.riocode.beer.inventory.service.web.controllers;
+package xyz.riocode.brewery.beer.inventory.service.web.controllers;
 
-import xyz.riocode.beer.inventory.service.repositories.BeerInventoryRepository;
-import xyz.riocode.beer.inventory.service.web.mappers.BeerInventoryMapper;
-import xyz.riocode.beer.inventory.service.web.model.BeerInventoryDto;
+import xyz.riocode.brewery.beer.inventory.service.repositories.BeerInventoryRepository;
+import xyz.riocode.brewery.beer.inventory.service.web.mappers.BeerInventoryMapper;
+import xyz.riocode.brewery.beer.inventory.service.web.model.BeerInventoryDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

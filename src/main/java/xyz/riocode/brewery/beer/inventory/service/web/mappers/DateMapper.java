@@ -15,7 +15,7 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package xyz.riocode.beer.inventory.service.web.mappers;
+package xyz.riocode.brewery.beer.inventory.service.web.mappers;
 
 import org.springframework.stereotype.Component;
 

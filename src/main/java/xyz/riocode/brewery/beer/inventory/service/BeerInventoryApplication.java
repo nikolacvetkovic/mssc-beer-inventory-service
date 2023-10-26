@@ -1,4 +1,4 @@
-package xyz.riocode.beer.inventory.service;
+package xyz.riocode.brewery.beer.inventory.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

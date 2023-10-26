@@ -1,4 +1,4 @@
-package xyz.riocode.beer.inventory.service.web.model;
+package xyz.riocode.brewery.beer.inventory.service.web.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

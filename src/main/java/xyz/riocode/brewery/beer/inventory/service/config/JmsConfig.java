@@ -1,4 +1,4 @@
-package xyz.riocode.beer.inventory.service.config;
+package xyz.riocode.brewery.beer.inventory.service.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Bean;

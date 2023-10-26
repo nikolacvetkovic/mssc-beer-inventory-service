@@ -1,7 +1,7 @@
-package xyz.riocode.beer.inventory.service.web.mappers;
+package xyz.riocode.brewery.beer.inventory.service.web.mappers;
 
-import xyz.riocode.beer.inventory.service.domain.BeerInventory;
-import xyz.riocode.beer.inventory.service.web.model.BeerInventoryDto;
+import xyz.riocode.brewery.beer.inventory.service.domain.BeerInventory;
+import xyz.riocode.brewery.beer.inventory.service.web.model.BeerInventoryDto;
 import org.mapstruct.Mapper;
 
 /**

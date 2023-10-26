@@ -1,7 +1,7 @@
-package xyz.riocode.common.events;
+package xyz.riocode.brewery.common.events;
 
 import lombok.NoArgsConstructor;
-import xyz.riocode.common.model.BeerDto;
+import xyz.riocode.brewery.common.model.BeerDto;
 
 @NoArgsConstructor
 public class BrewBeerEvent extends BeerEvent{
