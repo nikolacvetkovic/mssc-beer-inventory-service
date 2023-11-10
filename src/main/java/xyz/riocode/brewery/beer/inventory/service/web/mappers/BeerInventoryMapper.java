@@ -1,12 +1,9 @@
 package xyz.riocode.brewery.beer.inventory.service.web.mappers;
 
+import org.mapstruct.Mapper;
 import xyz.riocode.brewery.beer.inventory.service.domain.BeerInventory;
 import xyz.riocode.brewery.beer.inventory.service.web.model.BeerInventoryDto;
-import org.mapstruct.Mapper;
 
-/**
- * Created by jt on 2019-05-31.
- */
 @Mapper(uses = {DateMapper.class})
 public interface BeerInventoryMapper {
 

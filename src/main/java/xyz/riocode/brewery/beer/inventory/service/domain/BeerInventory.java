@@ -16,18 +16,15 @@
  */
 package xyz.riocode.brewery.beer.inventory.service.domain;
 
+import jakarta.persistence.Entity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import jakarta.persistence.Entity;
 import java.sql.Timestamp;
 import java.util.UUID;
 
-/**
- * Created by jt on 2019-01-26.
- */
 @Getter
 @Setter
 @NoArgsConstructor
