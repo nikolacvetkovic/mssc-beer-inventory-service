@@ -20,14 +20,13 @@ public class AllocateBeerOrderListener {
     public void listen(AllocateBeerOrderEvent event) {
         AllocateBeerOrderResultEvent.AllocateBeerOrderResultEventBuilder builder
                 = AllocateBeerOrderResultEvent.builder().beerOrderDto(event.getBeerOrderDto());
-
         try {
             Boolean isAllocationSuccessful = allocationService.allocateOrder(event.getBeerOrderDto());
             builder.inventoryPending(!isAllocationSuccessful);
+            builder.allocationError(false);
         } catch (Exception e) {
             builder.allocationError(true);
         }
         jmsTemplate.convertAndSend(JmsConfig.ALLOCATE_BEER_ORDER_RES_QUEUE, builder.build());
     }
-
 }
