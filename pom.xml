@@ -6,7 +6,7 @@
     <parent>
         <groupId>io.github.nikolacvetkovic</groupId>
         <artifactId>mssc-brewery-bom</artifactId>
-        <version>1.5</version>
+        <version>1.6</version>
     </parent>
 
     <artifactId>mssc-beer-inventory-service</artifactId>
@@ -14,5 +14,12 @@
 
     <name>mssc-beer-inventory-service</name>
     <description>MSSC Beer Inventory Service</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
