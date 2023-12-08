@@ -5,11 +5,11 @@
 
     <parent>
         <groupId>io.github.nikolacvetkovic</groupId>
-        <artifactId>mssc-brewery-bom</artifactId>
+        <artifactId>brewery-bom</artifactId>
         <version>1.7</version>
     </parent>
 
-    <artifactId>mssc-beer-inventory-service</artifactId>
+    <artifactId>beer-inventory-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <name>mssc-beer-inventory-service</name>
